@@ -33,14 +33,14 @@ This project runs as a Jupyter Notebook, with no server to deploy.
 3. Open `Task1_Student_Marks_Analysis.ipynb` and click **Run All**.
 
 ## Rollback
-Each release is tagged in Git.
+Each version is a commit in this repository.
 
-- Version 1.0 (`v1.0`): notebook and README only.
-- Version 1.1 (`v1.1`): adds `requirements.txt` and the deployment section.
+- Version 1.0 (commit `7f099aa`): notebook and README only.
+- Version 1.1 (commit `b7d633a`): adds `requirements.txt` and the deployment section.
 
 To roll back to version 1.0, run:
 ```
-git checkout v1.0
+git checkout 7f099aa
 ```
 To return to the latest version, run:
 ```
