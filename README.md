@@ -24,3 +24,25 @@ This project analyzes a list of student marks and calculates:
 
 ## Dataset
 Manually created student marks, stored in the `marks` list in the notebook.
+
+## Deployment
+This project runs as a Jupyter Notebook, with no server to deploy.
+
+1. Install the requirements: `pip install -r requirements.txt`
+2. Run Jupyter: `jupyter notebook`
+3. Open `Task1_Student_Marks_Analysis.ipynb` and click **Run All**.
+
+## Rollback
+Each release is tagged in Git.
+
+- Version 1.0 (`v1.0`): notebook and README only.
+- Version 1.1 (`v1.1`): adds `requirements.txt` and the deployment section.
+
+To roll back to version 1.0, run:
+```
+git checkout v1.0
+```
+To return to the latest version, run:
+```
+git checkout main
+```

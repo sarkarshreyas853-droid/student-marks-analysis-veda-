@@ -1,0 +1,3 @@
+# The notebook uses only Python's built-in functions.
+# Jupyter is needed to open and run the notebook.
+notebook>=7.0
